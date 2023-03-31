@@ -16,6 +16,10 @@ class TestCouleur {
 		Assertions.assertEquals("rouge", couleurTest.getNom());
 		//Test d'accesseur pour la rgb rouge 
 		Assertions.assertEquals(255, couleurTest.getRouge());
+		//Test d'accesseur pour la rgb verte 
+		Assertions.assertEquals(0, couleurTest.getVert());
+
+		
 	}
 
 }
