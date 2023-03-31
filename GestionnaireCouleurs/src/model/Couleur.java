@@ -30,4 +30,12 @@ public class Couleur {
 		return nom;
 	}
 
+	/**
+	 * Accesseur pour la variable rouge de la couleur
+	 * @return rgb rouge de la couleur
+	 */
+	public int getRouge() {
+		return rouge;
+	}
+
 }
