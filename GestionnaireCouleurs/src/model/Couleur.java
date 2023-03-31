@@ -53,5 +53,37 @@ public class Couleur {
 	public int getBleu() {
 		return bleu;
 	}
+	
+	/**
+	 * Modifie le nom par le nouveau attribué
+	 * @param nouveauNom de la couleur
+	 */
+	public void setNom(String nouveauNom) {
+		this.nom = nouveauNom;
+	}
+	
+	/**
+	 * Modifier le rgb rouge de la couleur
+	 * @param nouveauRouge du rgb
+	 */
+	public void setRouge(int nouveauRouge) {
+		this.rouge = nouveauRouge;
+	}
+	
+	/**
+	 * Modifier le rgb vert de la couleur
+	 * @param nouveauVert du rgb
+	 */
+	public void setVert(int nouveauVert) {
+		this.vert = nouveauVert;
+	}
+	
+	/**
+	 * Modifier le rgb bleu de la couleur
+	 * @param nouveauBleu du rgb
+	 */
+	public void setBleu(int nouveauBleu) {
+		this.bleu = nouveauBleu;
+	}
 
 }
