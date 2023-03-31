@@ -46,4 +46,12 @@ public class Couleur {
 		return vert;
 	}
 
+	/**
+	 * Accesseur pour la variable bleu de la couleur
+	 * @return rgb bleu de la couleur
+	 */
+	public int getBleu() {
+		return bleu;
+	}
+
 }
