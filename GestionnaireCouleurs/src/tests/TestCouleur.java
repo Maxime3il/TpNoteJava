@@ -12,6 +12,7 @@ class TestCouleur {
 	@Test
 	void testConstructeurCouleur() {
 		Couleur couleurTest = new Couleur("rouge", 255, 0, 0);
+		//Test du nom de la couleur
 		Assertions.assertEquals("rouge", couleurTest.getNom());
 	}
 
